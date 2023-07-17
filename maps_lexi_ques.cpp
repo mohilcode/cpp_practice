@@ -1,8 +1,8 @@
 /*
-Given N string, print unique strings in lexiographical
+Given N string, print unique strings in lexicographical
 order with their frequency
 N <= 10^5
-|S| <= 
+|S| <= 1000 (Cant do this if string size is too big)
 */
 
 
