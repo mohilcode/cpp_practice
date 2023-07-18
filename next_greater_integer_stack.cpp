@@ -30,4 +30,4 @@ int main() {
         cout << v[i] << " " << (nge[i] == -1 ? -1 : v[nge[i]]) << endl;
     }
 }
-
+//difficult
