@@ -11,7 +11,7 @@ int main() {
     // auto min = min_element(v.begin(), v.end());
     // cout << *min << endl;
     //or
-    int min = *max _element(v.begin(), v.end());
-    cout << min << endl;
+    int max = *max _element(v.begin(), v.end());
+    cout << max << endl;
 }
 
