@@ -92,18 +92,16 @@ int main(){
         g[v1].push_back(v2);
         g[v2].push_back(v1);
     }
-    dfs(1);
-    ccc(cc);
-    cc.clear();
-    int ct = 1;
+    int ct = 0;
     for(int i = 1; i <= n; ++i){        
         if(!vis[i]){            
-             ct++;
-             dfs(i);
-             ccc(cc);
-             cc.clear();
+            ct++;
+            dfs(i);
+            ccc(cc);
+            cc.clear();
         }
     }
     cout << ct;
+
 }
 
